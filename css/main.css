@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2 {
+  font-family: "Sigmar One",sans-serif;
+  color: #cc1465;
+  font-size: 1.875rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+nav, footer {
+  background-color: #ffe500;
+  text-align: center;
+  padding: 1rem;
+}
