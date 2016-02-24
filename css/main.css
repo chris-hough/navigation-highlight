@@ -1,10 +1,12 @@
 html {
   box-sizing: border-box;
+  font-family: 'Georgia', serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 
 h1, h2 {
   font-family: "Sigmar One",sans-serif;
@@ -20,4 +22,28 @@ nav, footer {
   background-color: #ffe500;
   text-align: center;
   padding: 1rem;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  background-color: #b2a212;
+  border-radius: 10pt;
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
+b {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
 }
